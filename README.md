@@ -6,6 +6,7 @@ To access driving stereo data (unpacked size will be 77GB):
 - Open an AWS instance
 - aws s3 cp s3://idl-proj-3d/driving_stereo.tar.gz ./
 - tar -xvzf driving_stereo.tar.gz
+
 (note: do not download this from S3 to outside of AWS, as that will incur huge data egress costs)
 
 This contains a 'train' directory with 174,437 image pairs and 'test' directory with 7,751 image pairs.
