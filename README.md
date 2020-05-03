@@ -12,3 +12,13 @@ To access driving stereo data (unpacked size will be 77GB):
 This contains a 'train' directory with 174,437 image pairs and 'test' directory with 7,751 image pairs.
 
 Both 'train' and 'test' have 'left' and 'right' folder which contain the images. Thus the 'train' or 'test' directory paths can be passed to the "class Inria(data.Dataset)".
+
+## Results
+
+### Dataset: Inria
+
+| Model        | Train MAE     | Test MAE|
+| ------------- |---------------| ------|
+| Deep-3D       | 0.22408 | 0.25312 |
+| Deep-3D Early Fusion      | 0.1148     | 0.0499 |
+| Deep-3D Late Fusion  |  0.1094     |  0.0463 |
