@@ -20,5 +20,5 @@ Both 'train' and 'test' have 'left' and 'right' folder which contain the images.
 | Model        | Train MAE     | Test MAE|
 | ------------- |---------------| ------|
 | Deep-3D       | 0.22408 | 0.25312 |
-| Deep-3D Early Fusion      | 0.1148     | 0.0499 |
-| Deep-3D Late Fusion  |  0.1094     |  0.0463 |
+| Deep-3D + Monocular Depth Estimation + Mask-RCNN (Early Fusion)      | 0.1148     | 0.0499 |
+| Deep-3D + Monocular Depth Estimation + Mask-RCNN (Late Fusion)  |  0.1094     |  0.0463 |
