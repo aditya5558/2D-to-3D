@@ -24,7 +24,8 @@ Both 'train' and 'test' have 'left' and 'right' folder which contain the images.
 | Deep-3D + Monocular Depth Estimation + Mask-RCNN (Late Fusion)  | 6.31     |  6.84 |
 
 
-## Example Inputs and Outputs as GIFs
+## Qualitative Examples: Inputs and Outputs as GIFs
+Below are 7 examples from the Inria dataset, showing input and output images as GIFs. Each example consists of a stereo pair of left and right views of a scene. The left view is the input image from the Inria dataset. The right view is the output produced by our reimplementation of the Deep3D model. By alternating fast between these two views, these GIFs produce a sensation of depth.
 ![Image 0 GIF](output_gifs/0.gif)
 ![Image 1 GIF](output_gifs/1.gif)
 ![Image 2 GIF](output_gifs/2.gif)
